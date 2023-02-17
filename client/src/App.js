@@ -1,9 +1,17 @@
-import TradingViewWidget from "TradingViewWidget";
+import styled from "styled-components";
+
+const StyleBUtton = styled.button`
+  border:2px solid black;
+  padding:10px 20px;
+  background-color:pink;
+  color:green;
+`
 
 function App() {
   return (
     <div className="app">
-      <TradingViewWidget />
+      Buildng Youtube
+      <StyleBUtton></StyleBUtton>
     </div>
   );
 }
