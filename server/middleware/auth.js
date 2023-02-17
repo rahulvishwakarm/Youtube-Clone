@@ -1,5 +1,4 @@
-const { verfiyToken } = require("../utils/jwt");
-const config = require("../config");
+const { User } = require("../model/User")
 
 const auth = (req, res, next) => {
     const token = req.cookies.w_auth;
