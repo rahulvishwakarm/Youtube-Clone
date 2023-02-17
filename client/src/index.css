@@ -1,0 +1,9 @@
+.app {
+    height: 100%;
+    width: 100%;
+}
+
+.tradingview-widget-container, .technical-analysis-chart-demo {
+    height: 100%;
+    width: 100%;
+}
